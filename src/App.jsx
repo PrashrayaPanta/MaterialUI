@@ -4,6 +4,7 @@ import { MUIButtons } from "./components/MUIButtons";
 import MUICheckbox from "./components/MUICheckbox";
 import MUIRadio from "./components/MUIRadio";
 import { MUISelect } from "./components/MUISelect";
+import MUISwitch from "./components/MUISwitch";
 import { MUITextField } from "./components/MUITextField";
 import { MUITyopography } from "./components/MUITyopography";
 
@@ -19,7 +20,8 @@ function App() {
         {/* <MUITextField /> */}
         {/* <MUISelect /> */}
         {/* <MUIRadio /> */}
-        <MUICheckbox />
+        {/* <MUICheckbox /> */}
+        <MUISwitch />
       </div>
     </>
   );
